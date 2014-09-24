@@ -1,0 +1,787 @@
+Thu, 18 Sep 2014 21:46:16 root         INFO     Satchmo Started
+Thu, 18 Sep 2014 21:46:16 root         INFO     Satchmo Started
+Thu, 18 Sep 2014 21:46:16 shop.listeners DEBUG    Added default shop listeners
+Thu, 18 Sep 2014 21:46:16 satchmo_toolbar DEBUG    Satchmo toolbar ready
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Management command: runserver
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Called model choices initialization function <shipping_choices>
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Management command: runserver
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Called model choices initialization function <labelled_gateway_choices>
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Management command: runserver
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Called model choices initialization function <labelled_gateway_choices>
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Management command: runserver
+Thu, 18 Sep 2014 21:46:16 iterchoices  DEBUG    Called model choices initialization function <credit_choices>
+Thu, 18 Sep 2014 21:46:40 payment.urls DEBUG    Found payment processor: DUMMY, adding urls at ^dummy/
+Thu, 18 Sep 2014 21:46:41 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:46:41 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:46:41 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:46:41 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:46:41 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:46:51 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:46:51 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:46:51 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:46:51 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:46:51 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:31 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:47:31 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:31 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:31 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:31 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:52 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:47:52 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:52 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:52 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:52 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:47:55 root         DEBUG    subtypes = ('ConfigurableProduct',)
+Thu, 18 Sep 2014 21:47:55 product.utils DEBUG    Serialized Options neat-book: ({'id': 3, 'items': (<Option: u'Hard cover'>, <Option: u'Soft cover'>, <Option: u'On tape'>), 'name': u'Book type', 'description': u''},)
+Thu, 18 Sep 2014 21:47:55 product.views DEBUG    finding product template: ['product/detail_configurableproduct.html', 'product/product.html']
+Thu, 18 Sep 2014 21:47:55 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:47:58 shop.views.cart DEBUG    FORM: <QueryDict: {u'addcart': [u'Add to cart'], u'csrfmiddlewaretoken': [u'VepLxjn6q2WWN3UQEoPiNv4jzsvGXwmw'], u'productname': [u'neat-book_hard'], u'3': [u'hard'], u'quantity': [u'1']}>
+Thu, 18 Sep 2014 21:47:58 shop.views.cart DEBUG    found product: A really neat book (Hard cover)
+Thu, 18 Sep 2014 21:47:58 shop.views.cart DEBUG    product neat-book_hard is active
+Thu, 18 Sep 2014 21:47:58 shop.listeners DEBUG    caught cart changed signal - remove_order_on_cart_update
+Thu, 18 Sep 2014 21:47:58 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:47:58 shop.templatetags.satchmo_cart DEBUG    sub details
+Thu, 18 Sep 2014 21:48:04 shop.listeners DEBUG    caught cart changed signal - remove_order_on_cart_update
+Thu, 18 Sep 2014 21:48:04 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:48:04 shop.templatetags.satchmo_cart DEBUG    sub details
+Thu, 18 Sep 2014 21:48:06 satchmo_store.contact.forms INFO     Sending form_init signal: <class 'satchmo_store.contact.forms.ContactInfoForm'>
+Thu, 18 Sep 2014 21:48:06 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:48:12 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:48:12 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:48:12 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:48:12 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:48:12 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 21:49:13 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:49:13 shop.templatetags.satchmo_cart DEBUG    sub details
+Thu, 18 Sep 2014 21:50:04 satchmo_store.contact.forms INFO     Sending form_init signal: <class 'satchmo_store.contact.forms.ContactInfoForm'>
+Thu, 18 Sep 2014 21:50:04 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:51:20 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 21:51:20 shop.templatetags.satchmo_cart DEBUG    sub details
+Thu, 18 Sep 2014 21:59:33 shop.listeners DEBUG    caught cart changed signal - remove_order_on_cart_update
+Thu, 18 Sep 2014 21:59:33 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 22:07:16 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 22:07:16 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 22:07:16 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 22:07:21 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 22:07:21 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 22:07:21 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 22:07:23 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 22:07:23 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 22:07:23 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 23:15:43 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 23:15:43 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 23:15:43 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 23:15:43 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 23:15:43 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 23:55:49 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Thu, 18 Sep 2014 23:55:49 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Thu, 18 Sep 2014 23:55:49 sorl.thumbnail ERROR    Thumbnail tag failed:
+Traceback (most recent call last):
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 45, in render
+    return self._render(context)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/templatetags/thumbnail.py", line 97, in _render
+    file_, geometry, **options
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 61, in get_thumbnail
+    thumbnail)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/base.py", line 86, in _create_thumbnail
+    image = default.engine.create(source_image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 16, in create
+    image = self.colorspace(image, geometry, options)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/base.py", line 34, in colorspace
+    return self._colorspace(image, colorspace)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/sorl/thumbnail/engines/pil_engine.py", line 56, in _colorspace
+    return image.convert('RGB')
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 822, in convert
+    self.load()
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/ImageFile.py", line 191, in load
+    d = Image._getdecoder(self.mode, d, a, self.decoderconfig)
+  File "/home/neerajdhiman/projects/demo/dev/local/lib/python2.7/site-packages/PIL/Image.py", line 413, in _getdecoder
+    raise IOError("decoder %s not available" % decoder_name)
+IOError: decoder jpeg not available
+Fri, 19 Sep 2014 02:53:33 root         DEBUG    subtypes = ('ConfigurableProduct',)
+Fri, 19 Sep 2014 02:53:33 product.utils DEBUG    Serialized Options robot-attack: ({'id': 3, 'items': (<Option: u'Hard cover'>, <Option: u'Soft cover'>, <Option: u'On tape'>), 'name': u'Book type', 'description': u''},)
+Fri, 19 Sep 2014 02:53:33 product.views DEBUG    finding product template: ['product/detail_configurableproduct.html', 'product/product.html']
+Fri, 19 Sep 2014 02:53:33 shop.templatetags.satchmo_util WARNING  No url found for satchmo_set_language (OK if running tests)
+Fri, 19 Sep 2014 02:54:42 satchmo_utils.widgets DEBUG    value: <class 'decimal.Decimal'>
